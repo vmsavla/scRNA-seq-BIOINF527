@@ -23,6 +23,7 @@ options(future.globals.maxSize=80000 *1024^2)
 
 
 # set up working directory and local directories
+# this is the directory that contains all the samples (preprocessed using CellRanger)
 setwd('/nfs/turbo/dcmb-class/bioinf527/groups/group_02/varunika_files/prac_pipeline/')
 parent_dir <- '/nfs/turbo/dcmb-class/bioinf527/groups/group_02/varunika_files/prac_pipeline/'
 sample_dirs <- list.dirs(path = parent_dir, full.names = TRUE, recursive = FALSE)
