@@ -3,6 +3,9 @@ The plots and csv files are present in this folder.
 2 - Feature scatter plot
 3 - UMAP plot
 4 - Dotplot
-5 - 
-6 - 
-7 - 
+5 - UMAP annotation from known reference markers
+6 - UMAP annotation from easybio R package
+7 - Top 3 cell types per cluster
+8 - UMAP of cancer cell markers (isolated)
+9 - Top 10 markers in each cluster
+10 - Pie chart of cell types
